@@ -1,0 +1,58 @@
+body{
+    background: whitesmoke;
+}
+.border{
+    width: 900px;
+    height: 250px;
+    margin: 50px auto;
+    margin-top: 200px;
+}
+.kotak{
+    width: 100px;
+    height: 100px;
+    border: 5px solid grey ;
+    border-radius: 20px;
+    float: left;
+
+}
+.daun{
+    width: 100px;
+    height: 100px;
+    border: 5px solid red ;
+    border-radius: 35px 0 35px 0;
+    margin-left: 20px;
+    float: left;
+}
+.Bulat{
+    width: 100px;
+    height: 100px;
+    border: 5px solid darkgreen ;
+    border-radius: 50%;
+    margin-left: 20px;
+    float: left;
+}
+.Atas{
+    width: 100px;
+    height: 50px;
+    border: 5px solid blue;
+    border-radius: 400px 400px 0 0;
+    margin-left: 20px;
+    float: left;
+}
+.Bawah{
+ width: 100px;
+ height: 50px;
+ border: 5px solid blue;
+ border-radius: 0 0 400px 400px;
+ margin-left: 20px;
+ margin-top: 70px;
+ float: left;
+}
+.Kanan{
+    width: 105px;
+    height: 100px;
+    border: 5px solid orangered;
+    border-radius: 0 100px 100px 0;
+    margin-left: 20px;
+    float: left;
+}
